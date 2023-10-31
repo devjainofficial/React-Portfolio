@@ -1,0 +1,14 @@
+.button-container {
+  position: sticky;
+  bottom: 20px;
+  right: 20px;
+}
+
+.dark-mode-button {
+  background-color: #000080; /* Deep blue for dark mode */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
