@@ -32,7 +32,10 @@ function BottomUpScroller() {
         className="fixed bottom-4 right-4 p-2 bg-black flex items-center justify-center"
         style={{ width: "40px", height: "40px" }}
       >
-        <FontAwesomeIcon icon={faChevronUp} style={{ color: "#d95e0d" }} />
+        <FontAwesomeIcon icon={faChevronUp} style={{ color: "#d95e0d" }} 
+          onMouseEnter={() => { document.querySelector(".fa-chevron-up").style.color = 'green'; }}
+          onMouseLeave={() => { document.querySelector(".fa-chevron-up").style.color = 'orange'; }}
+        />
       </button>
     )
   );
