@@ -8,6 +8,7 @@ import { applyTheme } from "./themes/utils";
 import baseTheme from "./themes/base";
 import darkTheme from "./themes/dark";
 import Switch from '@mui/material/Switch';
+import BottomUpScroller from "./components/BottomUp";
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
       <Projects /> 
       <TechStack />
       <Contact />
+      <BottomUpScroller/>
     </>
   );
 }
